@@ -5,6 +5,10 @@ return {
       -- use the night style
       -- style = "night",
       -- disable italic for functions
+
+      -- transparent background
+      transparent = true,
+
       styles = {
         functions = {},
       },
@@ -13,7 +17,7 @@ return {
         -- colors.hint = "#ff0000"
         -- colors.error = colors.blue
 
-        colors.bg = "#131720"
+        -- colors.bg = "#131720"
         colors.bg_sidebar = "#101218"
         colors.bg_float = "#131720"
         colors.warning = colors.blue

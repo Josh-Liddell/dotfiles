@@ -28,7 +28,7 @@ $cmd_duration\
 $line_break\
 $character"""
 
-palette = 'catppuccin_mocha'
+palette = 'joshs_palette'
 
 [os]
 disabled = false
@@ -63,7 +63,7 @@ format = '[ $user]($style)'
 
 [directory]
 style = "bg:peach fg:crust"
-format = "[ $path ]($style)"
+format = "[$path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
@@ -72,10 +72,10 @@ truncation_symbol = "…/"
 "Downloads" = " "
 "Music" = "󰝚 "
 "Pictures" = " "
-"Developer" = "󰲋 "
+"projects" = "󰲋 "
 
 [git_branch]
-symbol = ""
+symbol = ""
 style = "bg:yellow"
 format = '[[ $symbol $branch ](fg:crust bg:yellow)]($style)'
 
@@ -276,3 +276,33 @@ surface0 = "#363a4f"
 base = "#24273a"
 mantle = "#1e2030"
 crust = "#181926"
+
+
+[palettes.joshs_palette]
+# red = "#C47BF1"
+red = "#3B52D9"
+peach = "#3B52D9"
+yellow = "#5079F2"
+green = "#5C8EF2"
+sapphire = "#ACCAF2"
+lavender = "#b4befe"
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+maroon = "#eba0ac"
+teal = "#94e2d5"
+sky = "#89dceb"
+blue = "#89b4fa"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
